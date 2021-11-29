@@ -1,20 +1,21 @@
 import user from './user.json';
+import styles from './Profile.module.css';
 
 export const Profile = () => {
     return (
-    <div class="profile">
-        <div class="description">
-            <img
+    <div className={styles.Profile}>
+        <div className={styles.description}>
+            <img 
             src= {user.avatar}
             alt="User avatar"
-            class="avatar"
+            className={styles.Avatar}
             />
-            <p class="name">{user.username}</p>
-            <p class="tag">{user.tag}</p>
-            <p class="location">{user.location}</p>
+            <p className={styles.Name}>{user.username}</p>
+            <p className={styles.Tag}>{user.tag}</p>
+            <p className={styles.Location}>{user.location}</p>
         </div>
-        <ul class="stats">
-            <li>
+        <ul className={styles.Stats}>
+            <li className={styles.List}>
                 <span class="label">Followers</span>
                 <span class="quantity">{user.stats.followers}</span>
             </li>

@@ -1,0 +1,57 @@
+.Profile {
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: white;
+    color: black;
+}
+.Description {
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    
+}
+.Description:not(:last-child) {
+        margin-bottom: 30px;
+}
+.Avatar{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.Name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.19;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Tag{
+    font-size: 16px;
+    line-height: 1.19;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.Location{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Stats {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.List {
+    display: flex;
+    justify-content: center;
+}
