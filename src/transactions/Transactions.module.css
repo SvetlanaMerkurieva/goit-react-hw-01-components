@@ -1,0 +1,14 @@
+.Table {
+    border: 1px solid black;
+    width: 100%;
+}
+.TitleTr {
+    background: grey;
+}
+th, td {
+    border: 1px solid black;
+}
+.TableTr:nth-child(2n) {
+    background: rgb(212, 211, 211);
+    color: black;
+}

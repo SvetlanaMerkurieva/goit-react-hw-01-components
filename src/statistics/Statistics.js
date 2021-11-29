@@ -2,13 +2,13 @@ import data from './data.json'
 
 export const Statistics = () => {
     return ( 
-        <section class="statistics">
-            <h2 class="title">Upload stats</h2>
-            <ul class="stat-list">
+        <section className="statistics">
+            <h2 className="title">Upload stats</h2>
+            <ul className="stat-list">
                 {data.map((obj) => (
-                    <li class="item">
-                        <span class="label">{obj.label}</span>
-                        <span class="percentage">{obj.percentage}</span>
+                    <li className="item">
+                        <span className="label">{obj.label}</span>
+                        <span className="percentage">{obj.percentage}</span>
                     </li>
                     )
                 )}

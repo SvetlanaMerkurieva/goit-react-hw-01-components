@@ -1,3 +1,5 @@
+import friends from './friends.json';
+
 export const FriendList = () => {
     return (
         <ul class="friend-list">
@@ -6,14 +8,16 @@ export const FriendList = () => {
     )
 }
 
-const FriendListItem = (friends) => {
+const FriendListItem = () => {
     return (
-        {friends.map(friend => (
-            <li class="item">
-                <span class="status"></span>
-                <img class="avatar" src="" alt="User avatar" width="48" />
-                <p class="name"></p>
-            </li>
-        ))}
+        <div>
+            {friends.map(friend => (
+                <li className="item">
+                    <span className="status">{friend.isOnline}</span>
+                    <img className="avatar" src={friend.avatar} alt="User avatar" width="48" />
+                    <p className="name">{friend.name}</p>
+                </li>
+            ))}
+        </div>
     )
 }
