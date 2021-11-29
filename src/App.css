@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.App-task {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.App-list {
+  list-style: none;
+}

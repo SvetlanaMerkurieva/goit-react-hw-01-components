@@ -4,7 +4,7 @@ import styles from './Profile.module.css';
 export const Profile = () => {
     return (
     <div className={styles.Profile}>
-        <div className={styles.description}>
+        <div className={styles.Description}>
             <img 
             src= {user.avatar}
             alt="User avatar"
