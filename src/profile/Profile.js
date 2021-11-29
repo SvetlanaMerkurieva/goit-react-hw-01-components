@@ -19,11 +19,11 @@ export const Profile = () => {
                 <span class="label">Followers</span>
                 <span class="quantity">{user.stats.followers}</span>
             </li>
-            <li>
+            <li className={styles.List}>
                 <span class="label">Views</span>
                 <span class="quantity">{user.stats.views}</span>
             </li>
-            <li>
+            <li className={styles.List}>
                 <span class="label">Likes</span>
                 <span class="quantity">{user.stats.likes}</span>
             </li>

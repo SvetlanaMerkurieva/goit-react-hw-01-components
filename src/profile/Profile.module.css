@@ -53,5 +53,10 @@
 }
 .List {
     display: flex;
-    justify-content: center;
+    background: rgb(235, 232, 232);
+    flex-direction: column;
+    width: 120px;
+}
+.List:not(:last-child) {
+    margin-right: 10px;
 }

@@ -1,12 +1,13 @@
-import data from './data.json'
+import data from './data.json';
+import styles from './Statistics.module.css';
 
 export const Statistics = () => {
     return ( 
-        <section className="statistics">
-            <h2 className="title">Upload stats</h2>
-            <ul className="stat-list">
+        <section className={styles.Statistics}>
+            <h2 className={styles.Title}>Upload stats</h2>
+            <ul className={styles.List}>
                 {data.map((obj) => (
-                    <li className="item">
+                    <li className={styles.Item}>
                         <span className="label">{obj.label}</span>
                         <span className="percentage">{obj.percentage}</span>
                     </li>
