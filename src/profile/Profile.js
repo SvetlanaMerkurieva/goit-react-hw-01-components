@@ -1,3 +1,4 @@
+/*import PropTypes from 'prop-types';*/
 import user from './user.json';
 import styles from './Profile.module.css';
 
@@ -16,18 +17,21 @@ export const Profile = () => {
         </div>
         <ul className={styles.Stats}>
             <li className={styles.List}>
-                <span class="label">Followers</span>
-                <span class="quantity">{user.stats.followers}</span>
+                <span className="label">Followers</span>
+                <span className="quantity">{user.stats.followers}</span>
             </li>
             <li className={styles.List}>
-                <span class="label">Views</span>
-                <span class="quantity">{user.stats.views}</span>
+                <span className="label">Views</span>
+                <span className="quantity">{user.stats.views}</span>
             </li>
             <li className={styles.List}>
-                <span class="label">Likes</span>
-                <span class="quantity">{user.stats.likes}</span>
+                <span className="label">Likes</span>
+                <span className="quantity">{user.stats.likes}</span>
             </li>
         </ul>
         </div>
     );
 };
+/*Profile.propTypes = {
+
+}*/
