@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
 export const Statistics = ({title, stats}) => {
@@ -15,4 +16,8 @@ export const Statistics = ({title, stats}) => {
             </ul>
         </section>
     )
+}
+Statistics.propTypes = {
+    title: PropTypes.string,
+    stats: PropTypes.array,
 }

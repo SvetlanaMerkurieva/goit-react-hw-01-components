@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import transactions from './transactions.json';
 import styles from './Transactions.module.css';
 
@@ -22,4 +23,7 @@ export const Transactions = () => {
             </tbody>
         </table>
     )
+}
+Transactions.propTypes = {
+    transactions: PropTypes.array,
 }
