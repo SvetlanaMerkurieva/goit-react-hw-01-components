@@ -15,7 +15,7 @@ const FriendListItem = () => {
             {friends.map(friend => (
                 <div key={friend.id} className={styles.Card}>
                     <li className={styles.Item}>
-                        <span className={styles.Status}></span>
+                        <span className={friend.isOnline === true ? styles.StatusIsOnline : styles.StatusIsOffline}></span>
                         <img className={styles.Avatar} src={friend.avatar} alt="User avatar" width="48" />
                         <p className={styles.Name}>{friend.name}</p>
                     </li>
