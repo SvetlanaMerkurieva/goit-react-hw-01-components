@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
-/*import backgroundColor from '../../functions/getRandomColor';*/
+import { getRandomColor }  from '../../functions/getRandomColor';
 
 export const Statistics = ({ title, stats }) => {
    return (
@@ -10,7 +10,7 @@ export const Statistics = ({ title, stats }) => {
             {stats.map(obj => (
                <li
                   className={s.item}
-                  style={{ backgroundColor: 'backgroundColor' }}
+                  style={{ backgroundColor: 'rgb(' + getRandomColor(255) + ',' + getRandomColor(255) + ',' + getRandomColor(255) + ')'}}
                   key={obj.id}
                >
                   <span className="label">{obj.label}</span>

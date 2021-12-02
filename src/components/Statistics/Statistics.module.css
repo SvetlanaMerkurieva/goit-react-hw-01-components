@@ -1,5 +1,5 @@
 .statistics {
-   background: white;
+   background: pink;
    color: black;
    margin-bottom: 15px;
 }
@@ -7,9 +7,9 @@
    display: flex;
    list-style: none;
    justify-content: space-between;
-   /*background: pink;*/
    border: 1px solid grey;
    padding: 0;
+   margin: 0;
 }
 .item {
    display: flex;
