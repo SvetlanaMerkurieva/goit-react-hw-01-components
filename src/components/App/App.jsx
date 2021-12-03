@@ -6,7 +6,7 @@ import { Profile } from '../Profile/Profile';
 import { Statistics } from '../Statistics/Statistics';
 import { FriendList } from '../Friends/FriendList';
 import { Transactions } from '../Transactions/Transactions';
-import './App.css';
+import './App.module.css';
 
 export default function App() {
    return (
