@@ -1,17 +1,17 @@
 .app {
-   text-align: center;
+  text-align: center;
 }
 
-.app-header {
-   background-color: #852a2a;
-   min-height: 100vh;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   font-size: calc(10px + 2vmin);
-   color: white;
+.appHeader {
+  background-color: #852a2a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 .title {
-   margin: 0 0 15px 0;
+  margin: 0 0 15px 0;
 }
